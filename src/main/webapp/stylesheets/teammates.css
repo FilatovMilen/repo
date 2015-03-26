@@ -95,6 +95,70 @@ h2 {
 }
 /*-----------------------------------------------------------------------------------------*/
 
+/* Container for the slides */
+.container {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+/* Slide buttons */
+
+.slideButtons {
+    height: 20px;
+    width: 50px;
+    background-color: green;
+    text-align: centre;
+    float: left;
+}
+
+button {
+    margin-left: 5px;
+}
+
+/* The content of the slides */
+.content-switcher {
+    padding-left: 25px;
+    width: 525px;
+    display: none;
+    float: left;
+}
+/* Using first-child to display only one slide */
+.content-switcher:first-child {
+    padding-left: 25px;
+    width: 525px;
+    float: left;
+    display: block;    
+}
+
+/* Highlights block */
+.highlights {
+    float: left;
+    padding-top: 30px;
+    width: 250px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlighted-feature {
+    color: #e46d0b;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Verdana, Sans-Serif;
+}
+
+.non-highlighted-feature {
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
 #header {
     background-color: black;
     height: 60px;
